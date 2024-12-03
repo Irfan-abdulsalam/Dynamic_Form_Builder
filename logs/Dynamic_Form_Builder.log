@@ -1,0 +1,61 @@
+00:48:08.634 [main] INFO  c.M.D.DynamicFormBuilderApplicationTests - Starting DynamicFormBuilderApplicationTests using Java 17.0.10 with PID 11152 (started by Irfan in D:\Workspace\Spring Boot Dev\Dynamic_Form_Builder)
+00:48:08.650 [main] INFO  c.M.D.DynamicFormBuilderApplicationTests - No active profile set, falling back to 1 default profile: "default"
+00:48:18.539 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+00:48:20.815 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1802 ms. Found 2 JPA repository interfaces.
+00:48:29.926 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:48:32.887 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+00:48:33.140 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+00:48:35.267 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+00:48:36.209 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:48:39.593 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41026e5c
+00:48:39.601 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:48:40.032 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+00:48:40.035 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+00:48:45.195 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+00:48:46.088 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+00:48:49.024 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+00:48:51.705 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+00:49:06.281 [main] INFO  c.M.D.DynamicFormBuilderApplicationTests - Started DynamicFormBuilderApplicationTests in 62.655 seconds (process running for 85.0)
+00:49:21.521 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+00:49:21.525 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+00:49:21.535 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+00:49:26.200 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+00:49:26.203 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+00:49:26.205 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+00:49:26.750 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+00:49:26.752 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+00:49:26.754 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+00:49:27.726 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+00:49:27.726 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+00:49:27.729 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+00:49:27.868 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+00:49:27.870 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+00:49:27.884 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+00:49:29.525 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.Myprojects.Dynamic_Form_Builder.SecurityConfigTest]: SecurityConfigTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:49:29.606 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.Myprojects.Dynamic_Form_Builder.DynamicFormBuilderApplication for test class com.Myprojects.Dynamic_Form_Builder.SecurityConfigTest
+00:49:30.073 [main] INFO  c.M.D.SecurityConfigTest - Starting SecurityConfigTest using Java 17.0.10 with PID 11152 (started by Irfan in D:\Workspace\Spring Boot Dev\Dynamic_Form_Builder)
+00:49:30.075 [main] INFO  c.M.D.SecurityConfigTest - No active profile set, falling back to 1 default profile: "default"
+00:49:35.292 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+00:49:36.445 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1151 ms. Found 2 JPA repository interfaces.
+00:49:43.787 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:49:44.491 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+00:49:44.816 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+00:49:44.820 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+00:49:46.272 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55d683cb
+00:49:46.274 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+00:49:46.275 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+00:49:46.276 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+00:49:47.144 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+00:49:48.521 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+00:49:49.342 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+00:49:49.471 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+00:50:02.582 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+00:50:02.584 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+00:50:02.587 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+00:50:02.645 [main] INFO  c.M.D.SecurityConfigTest - Started SecurityConfigTest in 32.99 seconds (process running for 141.364)
+00:50:04.729 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+00:50:04.751 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:50:04.975 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:50:04.999 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+00:50:05.001 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+00:50:05.172 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
